@@ -8,34 +8,34 @@ import my.simplejavaprojectwithjacoco.Calculator;
 
 public class CalculatorTest {
 	
-// 	@Test
-// 	public void testAdd()
-// 	{
+	@Test
+	public void testAdd()
+	{
 	
-// 		Calculator calculator = new Calculator();
-// 		int result = calculator.add(1, 2);
-// 		assertEquals(3, result);
+		Calculator calculator = new Calculator();
+		int result = calculator.add(1, 2);
+		assertEquals(3, result);
 		
-// 	}
+	}
 	
-// 	@Test
-// 	public void testMinus()
-// 	{
+	@Test
+	public void testMinus()
+	{
 	
-// 		Calculator calculator = new Calculator();
-// 		int result = calculator.minus(4, 1);
-// 		assertEquals(3, result);
+		Calculator calculator = new Calculator();
+		int result = calculator.minus(4, 1);
+		assertEquals(3, result);
 		
-// 	}
+	}
 	
-// 	@Test
-// 	public void testMultiply()
-// 	{
+	@Test
+	public void testMultiply()
+	{
 		
-// 		Calculator calculator = new Calculator();
-// 		int result = calculator.multiply(6, 2);
-// 		assertEquals(12, result);		
-// 	}
+		Calculator calculator = new Calculator();
+		int result = calculator.multiply(6, 2);
+		assertEquals(12, result);		
+	}
 
 	@Test
 	public void testDivide()
